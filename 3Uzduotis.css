@@ -1,0 +1,16 @@
+body {
+    background: linear-gradient(red, blue);
+}
+img {
+    width: 400px;
+    box-shadow: 10px 5px 3px blue;
+}
+
+li {
+    font-family: 'Roboto serif', serif;
+}
+
+.center-text {
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,72 @@
+body {
+    
+    background-color: darkslategrey;
+    text-align: center;
+    color: white;
+    
+  }
+  
+  #span_colored {
+    background-color: rgb(182, 137, 224);
+  }
+  
+  label {
+    margin-bottom: 1px;
+  }
+  input:required {
+    border: 1px solid red;
+  }
+  
+  input:valid {
+    border: 2px solid green;
+  }
+  
+  input:invalid {
+    border: 2px solid red;
+  }
+  
+  input {
+    display: block;
+    margin: 0 auto 10px;
+  }
+  
+  input[type="checkbox"] {
+    display: inline;
+  }
+  
+  input:read-only {
+    background-color: grey;
+  }
+  
+  textarea {
+    display: block;
+    margin: auto;
+    border: 2px solid red;
+    margin-bottom: 15px;
+  }
+  
+  input[type="age"]:in-range {
+    border: 2px solid rgb(17, 109, 32);
+  }
+  
+  input:out-of-range {
+    border: 2px solid rgb(216, 100, 5);
+  }
+  
+  #lowercase {
+    font-size: small;
+  }
+  
+  input:last-child {
+    background-color: green;
+    border-top: 2px solid grey;
+    border-left: 2px solid grey;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  input[type="checkbox"]:checked + label {
+    color: blue;
+  }

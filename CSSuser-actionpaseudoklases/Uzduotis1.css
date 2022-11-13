@@ -1,0 +1,20 @@
+
+form {
+        margin: 2;
+        max-width: 400px;
+        text-align: right;
+        background-color: white;
+        padding: 1rem;
+
+        
+}
+
+h1,h2,p {
+    text-align: left;
+} 
+button {
+    text-align: left;
+}
+legend {
+    text-align: right;
+}
