@@ -1,0 +1,80 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: center;
+  flex-wrap: wrap;
+  align-content: center;
+  font-family: 'Open Sans', sans-serif;
+  
+  background: linear-gradient(top, #222, #333);
+}
+
+
+
+.first-face {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dice {
+  border: 1px solid black;
+  padding: 4px;
+  background-color: white;
+  width: 104px;
+  height: 104px;
+  border-radius: 10%;
+  margin-right : 3em;
+  margin-top: 5em;
+  margin-left: 3em;
+  margin-bottom: 3em;
+}
+.dot{
+  display: block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color:black;
+}
+
+.second-face{
+  display: flex ;
+  justify-content: space-between;
+}
+
+.second-face .dot:nth-of-type(2) {
+  align-self: flex-end;
+}
+
+.third-face {
+  display: flex;
+  justify-content: space-between;
+}
+
+.third-face .dot:nth-of-type(1) {
+  align-self :flex-start;
+}
+
+.third-face .dot:nth-of-type(2) {
+  align-self :center;
+}
+
+.third-face .dot:nth-of-type(3) {
+  align-self: flex-end;
+}
+
+
+.fourth-face , .sixth-face, .fifth-face{
+  display: flex;
+  justify-content: space-between;
+}
+
+.fourth-face .column , .sixth-face .column, .fifth-face .column{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fifth-face .column:nth-of-type(2) {
+  justify-content: center;
+}
